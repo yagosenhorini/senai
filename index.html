@@ -1,44 +1,88 @@
+<!--Article-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exercício 4</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Section 2 - Aside com lista</title>
 </head>
-
-<body id="corpo">
-    <section id="principal">
-        <div class="divisoria">
-            <div class="ponto1"> </div>
-            <div class="linha"> </div>
-            <div class="ponto"> </div>
-            <div class="linha"> </div>
-            <div class="ponto"> </div>
-        </div>
-    
-        <h2 id="titulo">CREATE ACCOUNT</h2>
-        <div class="bloco-form">
-            <form>
-                <div class="form">
-                    <input class="entrada" type="text" placeholder="&#xf036; Name">
-                </div>
-                <div class="form">
-                    <input class="entrada" type="email" placeholder="&#xf003; Email">
-                </div>
-                <div class="form">
-                    <input class="entrada" type="password" placeholder="&#xf023; Password">
-                </div>
-            </form>
-            <div class="form-botao">
-                <button class="botao" type="submit">Continue</button>
+<body>
+    <section id="artigo_aside">
+        <article class="card-texto">
+            <div class="container">
+                <h2 id="titulo-section2">
+                    Welcome to the <strong id="cor">SMALL BUSINESS</strong> OWNERS
+                    associain Website
+                </h2>
+                <p class="p__section2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a nulla praesentium, hic ipsa dicta, quos animi possimus, sed perferendis aut!
+                    At eius minus deserunt, optio fuga blanditiis expedita sequi.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ullam iure expedita perspiciatis sunt harum necessitatibus et vel, animi, 
+                    veritatis voluptas tempora in vitae eligendi commodi tenetur recusandae inventore, temporibus!
+                </p>
+             
+                <hr id="divisao"/>
+                <h3 id="subtitulo">Our firm provides outstanding service to our clients</h3>
+                <hr id="divisao"/>
             </div>
-        </div>
-        <footer class="rodape">Terms & Conditions</footer>
-    </div>
-
+            <div class="container2">
+                <div class="imagem">
+                <figure>
+                    <img class="img" src="img/atendente.png">
+                </figure>
+                <p class="legenda">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Iure accusantium est autem quisquam. 
+                </p>
+                </div>
+                <div class="imagem">
+                 <figure>
+                    <img class="img" src="img/moedas.png">
+                </figure>
+                <p class="legenda">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Iure accusantium est autem quisquam. 
+                </p>
+                 </div>
+            <div class="imagem">
+                 <figure>
+                    <img class="img" src="img/relogio.png">
+                </figure>
+                <p class="legenda">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. 
+                    Iure accusantium est autem quisquam. 
+                </p> 
+            </div>
+            
+        </article>
+        <aside class="menu-lateral">
+           <header class="titulo">
+                <nav>Navigation</nav>
+           </header>
+           <div class="corpo-lista">
+           <ul>
+               <li class="lista"><a href="#">Home</a></li>
+               <li class="lista"><a href="#">Services</a></li>
+               <li class="lista"><a href="#">About Us</a></li>
+               <li class="lista"><a href="#">Blogs</a></li>
+               <li class="lista"><a href="#">News</a></li>
+               <li class="lista"><a href="#">Recent Posts</a></li>
+           </ul>
+           </div>
+        </aside>
+        <div class="newsletter">
+            <h3 id="news">Signup for Newsletter</h3>
+                <form>
+                    <input type="email" required autocomplete="no">
+                    <br>
+                    <button type="submit">Signup</button>
+                </form>
+            </div>
     </section>
 </body>
 </html>
